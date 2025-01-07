@@ -11,4 +11,5 @@ resource "aws_instance" "public-server" {
   tags = {
     Name = "test-server"
   }
+
 }
