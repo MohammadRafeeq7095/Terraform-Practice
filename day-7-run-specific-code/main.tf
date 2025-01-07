@@ -1,3 +1,6 @@
+# command: terraform plan -target=aws_s3_bucket.lambda_bucket
+# run the above command in terminal for debug(execute) or destroy or plan the specific resource
+
 resource "aws_instance" "test" {
   ami = "ami-01816d07b1128cd2d"
   instance_type = "t2.medium"
@@ -20,5 +23,3 @@ resource "aws_s3_bucket" "lambda_bucket" {
   }
 }
 
-# command: terraform plan -target=aws_s3_bucket.lambda_bucket
-# run the above command in terminal for debug(execute) or destroy or plan the specific resource
