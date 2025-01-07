@@ -1,0 +1,5 @@
+amiid = "ami-01816d07b1128cd2d"
+type = "t2.micro"
+keyname = "dns"
+vpc-cidr_block = "10.0.0.0/16"
+subnet-cidr = "10.0.0.0/24"
